@@ -1,9 +1,191 @@
-<mxfile host="app.diagrams.net" modified="2024-07-25T08:21:14.641Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" version="24.6.5" etag="rrmWNBq6ShS69JXeHP_e" type="github">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" version="24.7.4">
   <diagram name="Seite-1" id="YsOyLl7YJgb1orMZwCNK">
-    <mxGraphModel>
+    <mxGraphModel dx="1386" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="clA_JAOytLm3A8-lf2Sr-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="90" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="clA_JAOytLm3A8-lf2Sr-2" value="Manuelle Fonds_Nr Eingabe" style="shape=manualInput;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="137" y="170" width="116" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="clA_JAOytLm3A8-lf2Sr-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="clA_JAOytLm3A8-lf2Sr-2" target="clA_JAOytLm3A8-lf2Sr-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="clA_JAOytLm3A8-lf2Sr-7" value="&lt;h3&gt;Ablauf&lt;/h3&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="165" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="clA_JAOytLm3A8-lf2Sr-8" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="970" as="sourcePoint" />
+            <mxPoint x="400" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="clA_JAOytLm3A8-lf2Sr-9" value="&lt;h3&gt;Beschreibung - Ist&lt;/h3&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="445" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="clA_JAOytLm3A8-lf2Sr-10" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="80" as="sourcePoint" />
+            <mxPoint x="40" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="clA_JAOytLm3A8-lf2Sr-12" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="970" as="sourcePoint" />
+            <mxPoint x="560" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="clA_JAOytLm3A8-lf2Sr-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="clA_JAOytLm3A8-lf2Sr-1" target="clA_JAOytLm3A8-lf2Sr-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="300" as="sourcePoint" />
+            <mxPoint x="440" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="clA_JAOytLm3A8-lf2Sr-16" value="Xentis DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="280" y="360" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="clA_JAOytLm3A8-lf2Sr-17" value="Fonds ID" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="210" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="clA_JAOytLm3A8-lf2Sr-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.017;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="clA_JAOytLm3A8-lf2Sr-17" target="clA_JAOytLm3A8-lf2Sr-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="300" as="sourcePoint" />
+            <mxPoint x="440" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="clA_JAOytLm3A8-lf2Sr-20" value="Daten generieren&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="160" y="350" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="clA_JAOytLm3A8-lf2Sr-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="clA_JAOytLm3A8-lf2Sr-16" target="clA_JAOytLm3A8-lf2Sr-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="300" as="sourcePoint" />
+            <mxPoint x="440" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="clA_JAOytLm3A8-lf2Sr-23" value="&lt;h3&gt;Beschreibung - Soll&lt;/h3&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="clA_JAOytLm3A8-lf2Sr-24" value="Xentis DB direkt an Power Query als Data Quelle angebunden. Makro erfrischt die Abfrage" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="310" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="clA_JAOytLm3A8-lf2Sr-25" value="Ziel ist Konsolidation - anstatt Kontonummer angeben, Fonds_Nr ?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="605" y="195" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="clA_JAOytLm3A8-lf2Sr-26" value="In Tab &quot;Steuerung&quot; Fonds_Nr eingeben und erstmal Daten holen" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="195" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="clA_JAOytLm3A8-lf2Sr-27" value="Report Date" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="280" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="clA_JAOytLm3A8-lf2Sr-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="clA_JAOytLm3A8-lf2Sr-2" target="clA_JAOytLm3A8-lf2Sr-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="410" as="sourcePoint" />
+            <mxPoint x="440" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="clA_JAOytLm3A8-lf2Sr-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="clA_JAOytLm3A8-lf2Sr-27" target="clA_JAOytLm3A8-lf2Sr-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="410" as="sourcePoint" />
+            <mxPoint x="440" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="clA_JAOytLm3A8-lf2Sr-33" value="Prüffelder manuel löschen" style="shape=manualInput;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="770" width="116" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="clA_JAOytLm3A8-lf2Sr-34" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="920" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="clA_JAOytLm3A8-lf2Sr-35" value="Überblick" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="450" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="clA_JAOytLm3A8-lf2Sr-36" value="Broker&lt;div&gt;Kosten&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="450" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="clA_JAOytLm3A8-lf2Sr-37" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="clA_JAOytLm3A8-lf2Sr-20" target="clA_JAOytLm3A8-lf2Sr-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="370" as="sourcePoint" />
+            <mxPoint x="440" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="clA_JAOytLm3A8-lf2Sr-38" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="clA_JAOytLm3A8-lf2Sr-20" target="clA_JAOytLm3A8-lf2Sr-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="370" as="sourcePoint" />
+            <mxPoint x="440" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="clA_JAOytLm3A8-lf2Sr-40" value="Geschlossene Segmente?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="137" y="540" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="clA_JAOytLm3A8-lf2Sr-41" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="clA_JAOytLm3A8-lf2Sr-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="509" as="sourcePoint" />
+            <mxPoint x="130" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="clA_JAOytLm3A8-lf2Sr-42" value="Ja" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="clA_JAOytLm3A8-lf2Sr-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="clA_JAOytLm3A8-lf2Sr-43" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="clA_JAOytLm3A8-lf2Sr-35" target="clA_JAOytLm3A8-lf2Sr-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="360" as="sourcePoint" />
+            <mxPoint x="440" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="clA_JAOytLm3A8-lf2Sr-44" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="clA_JAOytLm3A8-lf2Sr-36" target="clA_JAOytLm3A8-lf2Sr-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="360" as="sourcePoint" />
+            <mxPoint x="440" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="clA_JAOytLm3A8-lf2Sr-45" value="Nein" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.362;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="clA_JAOytLm3A8-lf2Sr-40" target="clA_JAOytLm3A8-lf2Sr-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="212" y="610" as="sourcePoint" />
+            <mxPoint x="300" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="clA_JAOytLm3A8-lf2Sr-47" value="Beim geschlossenen Segmenten (am Stichtag) muss mann erstmal das Datum der letzten Berwertung holen vom Tab &quot;Steuerung&quot;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="555" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="clA_JAOytLm3A8-lf2Sr-48" value="Datum der letzten Bewertung generieren" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="90" y="660" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="clA_JAOytLm3A8-lf2Sr-50" value="Da Ziel ist alle archivierte Daten in Tabs zu haben, keine manuellle Arbeit" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="550" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="clA_JAOytLm3A8-lf2Sr-51" value="&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Neues&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Tab&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 130%;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;mit Segment_Nr erzeugen&lt;/span&gt;&lt;/div&gt;" style="shape=manualInput;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="62" y="770" width="116" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="clA_JAOytLm3A8-lf2Sr-52" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="clA_JAOytLm3A8-lf2Sr-48" target="clA_JAOytLm3A8-lf2Sr-51">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="610" as="sourcePoint" />
+            <mxPoint x="440" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="clA_JAOytLm3A8-lf2Sr-53" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="clA_JAOytLm3A8-lf2Sr-51" target="clA_JAOytLm3A8-lf2Sr-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="610" as="sourcePoint" />
+            <mxPoint x="440" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="clA_JAOytLm3A8-lf2Sr-54" value="End Bericht" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="162" y="920" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="clA_JAOytLm3A8-lf2Sr-55" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.448;exitY=0.988;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.413;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="clA_JAOytLm3A8-lf2Sr-33" target="clA_JAOytLm3A8-lf2Sr-54">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="790" as="sourcePoint" />
+            <mxPoint x="440" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="clA_JAOytLm3A8-lf2Sr-61" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="clA_JAOytLm3A8-lf2Sr-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="242" y="940" as="sourcePoint" />
+            <mxPoint x="292" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
